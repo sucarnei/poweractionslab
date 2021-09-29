@@ -64,6 +64,7 @@ jobs:
         solution-file: ${{ github.event.inputs.solution_outbound_folder}}/${{ github.event.inputs.solution_name }}.zip
         force-overwrite: true
         publish-changes: true
+        async: true
 
     - name: Export solution as managed
       uses: microsoft/powerplatform-actions/export-solution@0.4.0
