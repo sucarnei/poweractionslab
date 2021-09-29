@@ -108,3 +108,4 @@ jobs:
         solution-file: ${{ github.event.inputs.solution_release_folder}}/${{ github.event.inputs.solution_name }}.zip
         force-overwrite: true
         publish-changes: true
+        async: true
